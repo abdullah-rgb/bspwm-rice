@@ -1,0 +1,61 @@
+colors:
+  # Default colors
+  primary:
+    background: '0x101010'
+    foreground: '0x66ff66'
+
+  # Normal colors
+  normal:
+    black:   '0x1c1c1c'
+    red:     '0xd81860'
+    green:   '0x60ff60'
+    yellow:  '0xf9fd75'
+    blue:    '0x4695c8'
+    magenta: '0xa78edb'
+    cyan:    '0x43afce'
+    white:   '0xf3ebe2'
+
+  # Bright colors
+  bright:
+    black:   '0x4d4d4d'
+    red:     '0xf00060'
+    green:   '0x70ff70'
+    yellow:  '0xf9fd80'
+    blue:    '0x5a9dc8'
+    magenta: '0xb29fdb'
+    cyan:    '0x69b8ce'
+    white:   '0xeeeeee'
+
+window:
+  opacity: 0.3
+  padding:
+    x: 8
+    y: 8
+
+font:
+  normal:
+    family: Cascadia Code
+    style: Regular
+  bold:
+    family: Cascadia Code
+    style: Bold
+  italic:
+    family: Cascadia Code
+    style: Italic
+  bold_italic:
+    family: Cascadia Code
+    style: Bold Italic
+  size: 7.0
+
+cursor:
+  # Cursor style
+  style:
+    # Cursor shape
+    #
+    # Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    shape: Underline
+    text: '0x1E1D2F'
+    cursor: '0xF5E0DC'
