@@ -6,29 +6,29 @@
 super + Return
 	alacritty
 
+# super terminal
+super + t
+	sudo alacritty
+
 # program launcher
 super + d
-	xfce4-appfinder
+    rofi -show run
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
-# chromium
+# web browser
 super + w
-	brave
+	firefox
 
 # thunar (File Manager)
 super + e
 	thunar
 
 # screenshot
-super + Printscreen
+super + s
 	xfce4-screenshooter
-
-# run program
-ctrl + r
-	xfce4-appfinder --collapsed
 
 # tiling mode
 super + shift + d
