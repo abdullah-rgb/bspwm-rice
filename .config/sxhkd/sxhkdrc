@@ -6,10 +6,6 @@
 super + Return
 	alacritty
 
-# super terminal
-super + t
-	sudo alacritty
-
 # program launcher
 super + d
     rofi -show run
