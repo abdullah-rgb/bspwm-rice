@@ -20,7 +20,7 @@ super + w
 
 # thunar (File Manager)
 super + e
-	thunar
+	nautilus
 
 # screenshot
 super + s
@@ -28,10 +28,10 @@ super + s
 
 # tiling mode
 super + shift + d
-    if [ -z "$(bspc query -N -n focused.floating)" ]; then \                    
-        bspc node focused -t floating; \                                        
-    else \                                                                      
-        bspc node focused -t tiled; \                                           
+    if [ -z "$(bspc query -N -n focused.floating)" ]; then \
+        bspc node focused -t floating; \
+    else \
+        bspc node focused -t tiled; \
     fi
 
 #
