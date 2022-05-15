@@ -117,6 +117,5 @@ lua <<EOF
     capabilities = capabilities
   }
 EOF
+
 """""""""""""""""""""""""""""""""
-
-
