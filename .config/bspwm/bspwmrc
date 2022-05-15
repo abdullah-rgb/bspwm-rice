@@ -45,3 +45,5 @@ bspc config focus_follows_pointer 	true
 setxkbmap tr &
 picom --experimental-backends &
 nitrogen --restore &
+xsetroot -cursor_name left_ptr &
+gamma &
