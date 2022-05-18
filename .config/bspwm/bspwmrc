@@ -46,4 +46,4 @@ setxkbmap tr &
 picom --experimental-backends &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr &
-gamma &
+xrandr --output eDP-1 --gamma 0.7:0.7:0.7 &
