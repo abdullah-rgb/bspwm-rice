@@ -27,11 +27,14 @@ Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 """""""""""""""""""""""""
 
+Plug 'vim-python/python-syntax'
+Plug 'Mofiqul/dracula.nvim'
+
 call plug#end()
 
 
 
-" Vim Script
+" Colorscheme
 colorscheme catppuccin
 
 " Start NERDTree and leave the cursor in it.
@@ -119,3 +122,6 @@ lua <<EOF
 EOF
 
 """""""""""""""""""""""""""""""""
+
+"Python Syntax
+let g:python_highlight_all = 1
