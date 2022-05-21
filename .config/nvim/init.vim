@@ -9,10 +9,15 @@ set cursorline
 call plug#begin()
 
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+
 Plug 'preservim/nerdtree'
+
 Plug 'itchyny/lightline.vim'
+
 Plug 'ryanoasis/vim-devicons'
+
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 "nvim-cmp plugins""""""""""
@@ -28,7 +33,8 @@ Plug 'hrsh7th/vim-vsnip'
 """""""""""""""""""""""""
 
 Plug 'vim-python/python-syntax'
-Plug 'Mofiqul/dracula.nvim'
+
+Plug 'xiyaowong/nvim-transparent'
 
 call plug#end()
 
@@ -125,3 +131,6 @@ EOF
 
 "Python Syntax
 let g:python_highlight_all = 1
+
+" Transparent Background
+let g:transparent_enabled = v:true
