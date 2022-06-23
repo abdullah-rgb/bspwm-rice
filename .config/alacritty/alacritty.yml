@@ -1,61 +1,55 @@
-# Catppuccin!
+# Default colors
 colors:
   # Default colors
   primary:
-    background: '0x1E1D2F'
-    foreground: '0xD9E0EE'
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '0x1E1D2F'
-    cursor: '0xF5E0DC'
+    background: '#101421'
+    foreground: '#fffbf6'
 
   # Normal colors
   normal:
-    black:   '0x6E6C7E'
-    red:     '0xF28FAD'
-    green:   '0xABE9B3'
-    yellow:  '0xFAE3B0'
-    blue:    '0x96CDFB'
-    magenta: '0xF5C2E7'
-    cyan:    '0x89DCEB'
-    white:   '0xD9E0EE'
+    black: '#2e2e2e'
+    red: '#eb4129'
+    green: '#abe047'
+    yellow: '#f6c744'
+    blue: '#47a0f3'
+    magenta: '#7b5cb0'
+    cyan: '#64dbed'
+    white: '#e5e9f0'
 
   # Bright colors
   bright:
-    black:   '0x988BA2'
-    red:     '0xF28FAD'
-    green:   '0xABE9B3'
-    yellow:  '0xFAE3B0'
-    blue:    '0x96CDFB'
-    magenta: '0xF5C2E7'
-    cyan:    '0x89DCEB'
-    white:   '0xD9E0EE'
-
-  indexed_colors:
-    - { index: 16, color: '0xF8BD96' }
-    - { index: 17, color: '0xF5E0DC' }
+    black: '#565656'
+    red: '#ec5357'
+    green: '#c0e17d'
+    yellow: '#f9da6a'
+    blue: '#49a4f8'
+    magenta: '#a47de9'
+    cyan: '#99faf2'
+    white: '#ffffff'
 
 window:
-  opacity: 1.0
+  opacity: 0.8
   padding:
     x: 8
     y: 8
 
 font:
   normal:
-    family: Cascadia Code
+    family: SF Mono Medium
     style: Regular
   bold:
-    family: Cascadia Code
+    family: SF Mono Medium
     style: Bold
   italic:
-    family: Cascadia Code
+    family: SF Mono Medium
     style: Italic
   bold_italic:
-    family: Cascadia Code
+    family: SF Mono Medium
     style: Bold Italic
-  size: 7.0
+  size: 8.0
+  offset:
+    x: 0
+    y: 0
 
 cursor:
   # Cursor style
@@ -67,5 +61,9 @@ cursor:
     #   - _ Underline
     #   - | Beam
     shape: Underline
+    blinking: always
+    vi_mode_style: on
+    blink_interval: 50
     text: '0x1E1D2F'
     cursor: '0xF5E0DC'
+theme: iTerm-Default
