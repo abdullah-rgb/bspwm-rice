@@ -14,13 +14,13 @@ super + Escape
 super + w
 	firefox
 
-# thunar (File Manager)
+# Nautilus (File Manager)
 super + e
-	nautilus
+	thunar
 
 # screenshot
 super + s
-	xfce4-screenshooter -f -s /home/$USER/Resimler
+	xfce4-screenshooter -f -s /home/$USER/Pictures
 
 # tiling mode
 super + shift + d
