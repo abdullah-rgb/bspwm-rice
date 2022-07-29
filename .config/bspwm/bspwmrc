@@ -37,7 +37,6 @@ bspc config focus_follows_pointer 	    true
 
 
 #bspc rule -a Gimp desktop='^8' state=tiling follow=on
-bspc rule -a firefox desktop='^2' state=tiling follow=on
 
 
 setxkbmap tr &
