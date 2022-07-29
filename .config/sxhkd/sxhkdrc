@@ -36,10 +36,10 @@ super + v
 
 # Volume Up
 super + F3
-        pactl set-sink-volume 0 +10%
+        pamixer -i 5
 # Volume Down
 super + F2
-        pactl set-sink-volume 0 -10%
+        pamixer -d 5
 
 
 
