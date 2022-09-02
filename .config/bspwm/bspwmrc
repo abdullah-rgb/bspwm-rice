@@ -44,4 +44,5 @@ picom --experimental-backends &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 xrandr --output eDP --gamma 0.7:0.7:0.7 &
+lxsession &
 $HOME/.config/bspwm/polybar/launch.sh
