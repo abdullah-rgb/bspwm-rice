@@ -172,19 +172,19 @@ format-font = 2
 
 label-focused = %name%
 label-focused-foreground = ${color.blue}
-label-focused-background = ${color.black}
+label-focused-background = ${color.background}
 label-focused-underline =  ${color.blue}
 label-focused-padding = 1
 
 label-occupied = %name%
 label-occupied-foreground = ${color.green}
-label-occupied-background = ${color.black}
+label-occupied-background = ${color.background}
 ;label-occupied-underline = 
 label-occupied-padding = 1
 
 label-urgent = %name%
 label-urgent-foreground = ${color.red}
-label-urgent-background = ${color.black}
+label-urgent-background = ${color.background}
 label-urgent-underline =  ${color.red}
 label-urgent-padding = 1
 
@@ -193,7 +193,7 @@ label-empty-foreground = ${color.foreground}
 label-empty-padding = 1
 
 ; Separator in between workspaces
-label-separator = "∙"
+label-separator = ":"
 label-separator-padding = 0
 label-separator-foreground = ${color.altblack} 
 
@@ -249,7 +249,7 @@ label = "%{A1:terminal -e gtop &:}%percentage%% %{A}"
 type = internal/date
 interval = 1
 format-margin = 0
-time = "%H:%M %p"
+time = "%H:%M"
 time-alt = "%A, %m/%d/%y"
 
 format-prefix = 
@@ -301,17 +301,6 @@ format-foreground = ${color.black}
 format-background = ${color.yellow}
 
 label = "%{A1:terminal -e htop &:} %mb_used% %{A}"
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/launcher]
-type=custom/text
-content = 
-content-font = 4
-content-foreground = ${color.black}
-content-background = ${color.blue} 
-content-padding = 1
-click-left = rofi -show run
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
