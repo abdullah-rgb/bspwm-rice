@@ -59,18 +59,18 @@ window:
 
 font:
   normal:
-    family: JetBrains Mono Nerd Font
+    family: Iosevka Nerd Font
     style: Regular
   bold:
-    family: JetBrains Mono Nerd Font
+    family: Iosevka Nerd Font
     style: Bold
   italic:
-    family: JetBrains Mono Nerd Font
+    family: Iosevka Nerd Font
     style: Italic
   bold_italic:
-    family: JetBrains Mono Nerd Font
+    family: Iosevka Nerd Font
     style: Bold Italic
-  size: 8.0
+  size: 9.5
   offset:
     x: 0
     y: 0
