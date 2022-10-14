@@ -6,9 +6,11 @@ colors:
   cursor:
     text: CellBackground
     cursor: CellForeground
+  
   vi_mode_cursor:
     text: CellBackground
     cursor: CellForeground
+  
   search:
     matches:
       foreground: '#44475a'
@@ -16,9 +18,10 @@ colors:
     focused_match:
       foreground: '#44475a'
       background: '#ffb86c'
-    bar:
+    footer_bar:
       background: '#282a36'
       foreground: '#f8f8f2'
+  
   hints:
     start:
       foreground: '#282a36'
@@ -26,12 +29,15 @@ colors:
     end:
       foreground: '#f1fa8c'
       background: '#282a36'
+  
   line_indicator:
     foreground: None
     background: None
+  
   selection:
     text: CellForeground
     background: '#44475a'
+  
   normal:
     black: '#21222c'
     red: '#ff5555'
@@ -85,8 +91,13 @@ cursor:
     #   - _ Underline
     #   - | Beam
     shape: Block
+    
     blinking: never
+    
     vi_mode_style: on
+    
     blink_interval: 50
+    
     text: '0x1E1D2F'
+    
     cursor: '0xF5E0DC'
